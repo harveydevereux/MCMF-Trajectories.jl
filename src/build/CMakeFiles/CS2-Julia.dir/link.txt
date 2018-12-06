@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -std=c++11  -shared -Wl,-soname,libCS2-Julia.so -o libCS2-Julia.so CMakeFiles/CS2-Julia.dir/CS2-Julia.cpp.o -Wl,-rpath,/home/harvey/.julia/packages/CxxWrap/KcmSi/deps/usr/lib:/home/harvey/bin/julia-1.0.1/lib /home/harvey/.julia/packages/CxxWrap/KcmSi/deps/usr/lib/libcxxwrap_julia.so.0.5.1 /home/harvey/bin/julia-1.0.1/lib/libjulia.so 

@@ -1,0 +1,5 @@
+# TO build got to build/ and run
+# use your own path to the julia executable/JlCxx
+export JlCxx_DIR=~/.julia/packages/CxxWrap/KcmSi/deps/usr/lib/cmake/JlCxx
+cmake -D Julia_EXECUTABLE=~/bin/julia-1.0.1/bin/julia ..
+make
